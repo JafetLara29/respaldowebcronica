@@ -1,0 +1,10 @@
+body > .inner {
+    display: none;
+    
+  }
+.pg-loading-logo-header img{
+    width: 250px;
+}
+body.pg-loaded > .inner {
+    display: block;
+}

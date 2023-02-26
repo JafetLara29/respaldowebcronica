@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.container-sub{
+    width: 100%;
+    height: 100vh;
+    background: url("../../../../Images/Registro/img-do.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-sub{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,22,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content-sub h2{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.content-sub p{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 25px;
+    max-width: 500px;
+    text-align: center;
+}
+.form-check-label{
+    color: whitesmoke;
+}

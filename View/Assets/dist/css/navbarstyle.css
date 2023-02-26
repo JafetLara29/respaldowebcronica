@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --heading: 'Montserrat', sans-serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.dropdown-toggle:hover{
+    cursor: pointer;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #fff;
+    background-color: rgb(254, 1, 2);
+}
+/* header */
+.navigation-container{
+    transition: all 1s ease;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+}
+/* Variacion de navbar cuando se hace scroll */
+/* background-color: #1D0002; negro*/
+/* background-color: #E3001B; rojo*/
+/* background-color: #6E000B; rojo oscuro*/
+/* background-color: #FFF617; amarillo*/
+.navigation-container.sticky{
+    transition: all 1s ease;
+    background-color: #6E000B;
+    opacity: 0.7;
+}
+.top-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: black;
+    color: #fff;
+    padding: 2px 30px;
+    transition: all 1s ease;
+
+}
+
+.top-head.sticky{
+    transition: all 1s ease;
+    padding: 2px 10px;
+    background: #6E000B;
+}
+
+
+/******* js related styling *****/
+
+.times-btn{
+    display: none;
+}
+
+.nav-bar{
+    transition: all 1s ease;
+    background: black;
+    height: 0;
+}
+.nav-bar.sticky{
+    transition: all 1s ease;
+    background: #6E000B;
+}
+.show-nav{
+    
+    height: auto;
+}
+
+/********************/
+
+.nav-bar ul li{
+    text-align: center;
+    display: block;
+    padding: 15px 0;
+    transition: all 2s ease;
+}
+
+/* .nav-bar ul li:hover{
+    background: #6E000B;
+} */
+
+.nav-bar ul li a{
+    text-transform: uppercase;
+}
+
+.nav-bar ul li a:hover{
+    text-decoration: underline;
+
+}
+
+/* social -icons */
+
+.social-icons{
+    padding-top: 100px;
+}
+.social-icons ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}

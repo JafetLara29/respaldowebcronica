@@ -1,0 +1,25 @@
+[14-Aug-2022 00:47:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'crhershe_teamcode'@'localhost' to database 'db_anc' in /home1/crhershe/public_html/Data/data.php:40
+Stack trace:
+#0 /home1/crhershe/public_html/Data/data.php(40): PDO->__construct('mysql:host=127....', 'crhershe_teamco...', 'EWa512kewpse', Array)
+#1 /home1/crhershe/public_html/Data/addata.php(7): Data::createInstance()
+#2 /home1/crhershe/public_html/Business/adbusiness.php(10): AdData::getAll()
+#3 /home1/crhershe/public_html/View/newscategoriesview.php(50): AdBusiness->getAll()
+#4 {main}
+  thrown in /home1/crhershe/public_html/Data/data.php on line 40
+[14-Aug-2022 00:50:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'crhershe_teamcode'@'localhost' to database 'db_anc' in /home1/crhershe/public_html/Data/data.php:40
+Stack trace:
+#0 /home1/crhershe/public_html/Data/data.php(40): PDO->__construct('mysql:host=127....', 'crhershe_teamco...', 'EWa512kewpse', Array)
+#1 /home1/crhershe/public_html/Data/addata.php(7): Data::createInstance()
+#2 /home1/crhershe/public_html/Business/adbusiness.php(10): AdData::getAll()
+#3 /home1/crhershe/public_html/View/newscategoriesview.php(50): AdBusiness->getAll()
+#4 {main}
+  thrown in /home1/crhershe/public_html/Data/data.php on line 40
+[14-Aug-2022 00:53:24 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1044] Access denied for user 'crhershe_teamcode'@'localhost' to database 'db_anc' in /home1/crhershe/public_html/Data/data.php:40
+Stack trace:
+#0 /home1/crhershe/public_html/Data/data.php(40): PDO->__construct('mysql:host=127....', 'crhershe_teamco...', 'EWa512kewpse', Array)
+#1 /home1/crhershe/public_html/Data/addata.php(7): Data::createInstance()
+#2 /home1/crhershe/public_html/Business/adbusiness.php(10): AdData::getAll()
+#3 /home1/crhershe/public_html/View/newscategoriesview.php(50): AdBusiness->getAll()
+#4 {main}
+  thrown in /home1/crhershe/public_html/Data/data.php on line 40
+[15-Aug-2022 16:33:31 UTC] PHP Fatal error:  Cannot redeclare NewsData::getFiveNewsByCategoryId() in /home1/crhershe/public_html/Data/newsdata.php on line 75

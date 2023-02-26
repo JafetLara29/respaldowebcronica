@@ -1,0 +1,24 @@
+.space{
+    padding-top: 120px;
+}
+.main_color{
+    background-color: #E3001B!important;
+    color: white!important;
+}
+.secondary_color{
+    background-color: #AC0109!important;
+    color: white!important;
+    
+}
+
+.btn:hover{
+    background-color: #AC0109!important;
+    color: white!important;
+}
+
+.form-container{
+    max-width: 1000px!important;
+}
+form{
+    padding: 10px!important;
+}

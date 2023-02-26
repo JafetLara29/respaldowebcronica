@@ -1,0 +1,50 @@
+.space{
+    padding-top: 120px;
+}
+.main-row{
+    padding-left: 2px!important;
+    padding-right: 1px!important;
+}
+.main_color{
+    background-color: #E3001B!important;
+    color: white!important;
+}
+.secondary_color{
+    background-color: #AC0109!important;
+    color: white!important;
+    
+}
+
+.btn:hover{
+    background-color: #AC0109!important;
+    color: white!important;
+}
+
+.rigth-ad{
+    height: auto;
+    border-bottom: 1px solid #7ac64d;
+    border-top: 1px solid #7ac64d;
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.rigth-ad img{
+    width: 100%;
+}
+
+.cards-col{
+    min-width: 300px;
+}
+@media (max-width: 850px) {
+    .main-row{
+        justify-content: center;
+    }
+    .cards-col{
+        width: 100%!important;
+    }   
+}
+
